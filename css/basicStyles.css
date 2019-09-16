@@ -1,0 +1,199 @@
+/* 
+* Author:  Dimitar Kermedchiev
+* FN:      80943
+* Project: Express Conference Organiser
+*/
+/* Register and login */
+.register-page {
+  width: 400px;
+  padding: 4% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: #F5F5F0;
+  max-width: 100%;
+  margin: 0 auto 20px;
+  padding: 45px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+}
+.header{
+  background: #4C59A5;
+  width: 100%;
+  padding: 4% 0 4%;
+  margin: auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;  
+  font-size: 150%;
+}
+.form input {
+  background: #FFFFFF;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #C3C3C3;
+}
+.form button {
+  background: #1693D1;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.form button:hover, .form button:active, .form button:focus {
+  background: #33CC00;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 16px;
+}
+.form .message a {
+  color: #1693D1;
+  text-decoration: none;
+}
+.form .err-message {
+  color: red;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab-header {
+  border-style: double;
+  border-color: blue;
+  color: red;
+  font-size: 20px;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+  float: left;
+}
+/* Style the links inside the list items */
+ul.tab li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of links on hover */
+ul.tab li a:hover {
+  background-color: #ddd;
+}
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+  background-color: #ccc;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.table { 
+  display: table;
+  border: 1px solid black;
+} 
+.table>* { 
+  display: table-row;
+}
+.table>*>* { 
+  display: table-cell; 
+  border: 1px solid #ccc;
+}
+
+/*Header*/
+.main-header{
+  background: #4C59A5;
+  width: 100%;
+  padding: 1% 0 1%;
+  margin: auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;  
+  font-size: 150%;
+}
+.sub-header{
+  background: #4C59A5;
+  width: 100%;
+  padding: 1% 0 1%;
+  margin: auto;
+  color: #FFFFFF;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; 
+  font-size: 100%;
+}
+.logout-button{
+	text-align: right;
+	padding: 0 1% 0;
+  border-radius: 4px;
+}
+
+/*Hiding picture*/
+#magic {
+  height:100%;
+  width:100%;
+}
+#magic img{
+  max-width:100%; 
+  max-height:100%;
+  margin:auto;
+  display:block;
+}
+
+/*Fieldset creating new event*/
+fieldset {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px solid (internal value);
+  border-color: #1693D1;
+  background: #F5F5F0;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+}
+label{
+  font-weight:bold;
+}
+
+.table-row-form div input{
+	width: 98%;	
+}
